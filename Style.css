@@ -1,0 +1,78 @@
+head{
+	align-content: center;
+	
+}
+
+body{
+	background-color: lightblue;
+	background: url("background.jpg") no-repeat fixed;
+	background-size: cover;
+	text-align: center;
+	align-content: center;
+
+}
+.Meniu ul li{
+	border-radius: 20%;
+	text-align: center;
+	background-color: #3399ff;
+	color:white;
+	float: left;
+	line-height: 40px;
+	opacity: .8;
+	margin-left:20px;
+	width: 100px;
+	height: 40px;
+	font-size: 25px;
+
+
+}
+.Meniu ul{
+	list-style: none;
+	display: inline-block;
+	margin: 0px;
+
+}
+
+.Meniu a:hover{
+	color:blue;
+	opacity: 100;
+}
+
+a{
+	text-decoration:  none;
+	color:white;
+
+}
+#Date{
+	font-size: 45px;
+	color: black;
+	font-style: bold;
+	text-align: center;
+	margin-top: 200px;
+}
+.Snake{
+	width:700px;
+	height:400px;
+	margin: auto;
+	text-align: center;
+}
+
+.Contact ul li{
+	background-color: #1d7a91;
+	font-family: Lobster;
+	font-size: 45px;
+	opacity: .50;
+	width: 200px;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+}
+.Contact a:hover{
+	color: blue;
+}
+
+.Contact ul{
+	list-style: none;
+	display: inline-block;
+
+}
